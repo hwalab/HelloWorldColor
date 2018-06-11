@@ -1,6 +1,12 @@
 # Hello World Color
 Hello World Color is a Hello World Progressive Web App (HWPWA) that displays a beautiful random color, instead of the traditional "Hello, World!".
 
+[![Lighthouse Score: 100](https://img.shields.io/badge/lighthouse-100-brightgreen.svg)](https://pwa-directory.appspot.com/pwas/5728630896852992)
+
+## Screenshots
+
+![Hello World Color - PWA - Windows](https://github.com/hwalab/repo-assets/blob/master/helloworldcolor/readme/hello-world-color-pwa-windows-screenshot.png?raw=true)
+
 ## Development
 
 Hello World Color is hosted on GitHub Pages, and served from the [/docs](docs) folder.

@@ -1,0 +1,14 @@
+{
+    "name": "helloworldcolor",
+    "version": "1.0.0",
+    "description": "A Hello World Progressive Web App (HWPWA) that displays a beautiful random color, instead of the traditional \"Hello, World!\" message.",
+    "scripts": {
+        "workbox": "workbox generateSW"
+    },
+    "author": "HWALab",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hwalab/HelloWorldColor.git"
+    }
+}

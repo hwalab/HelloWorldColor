@@ -1,0 +1,18 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": "eslint:all",
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+    "rules": {
+        "func-style": "off",
+        "linebreak-style": ["error", "windows"],
+        "max-len": ["error", 120],
+        "one-var": "off",
+        "padded-blocks": "off",
+        "space-before-function-paren": "off"
+    }
+}

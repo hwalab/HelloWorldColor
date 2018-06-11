@@ -8,16 +8,17 @@
     "use strict";
 
     /**
-     * Returns a random RGB color.
-     * @returns {string} A rgb() color string.
+     * Returns a random color.
+     * @returns {string} A hex color string.
      */
     function getRandomColor() {
-        const MAX_RGB = 256;
-        const randomInt = (max) => Math.floor(Math.random() * Math.floor(max));
-
-        return `rgb(${randomInt(MAX_RGB)}, ${randomInt(MAX_RGB)}, ${randomInt(MAX_RGB)}`;
+        const rndInt = (max) => Math.floor(Math.random() * Math.floor(max));
+        const rndComp = () => `0${rndInt(256).toString(16)}`.substr(-2).toUpperCase();
+        return `#${rndComp()}${rndComp()}${rndComp()}`;
     }
 
-    document.body.style.backgroundColor = getRandomColor();
+    const randomColor = getRandomColor();
+    document.body.style.backgroundColor = randomColor;
+    document.title = `Hello World ${randomColor}`;
 
 }());

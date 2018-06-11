@@ -1,10 +1,10 @@
 {
     "short_name": "Hello Color",
     "name": "Hello World Color",
-    "description": "A Hello World Progressive Web App (HWPWA) that displays a beautiful random color, instead of the traditional \"Hello, World!\" message.",
+    "description": "A Hello World Progressive Web App (HWPWA) that displays a random color, instead of the traditional \"Hello, World!\" message.",
     "scope": "/",
-    "background_color": "#5817D9",
-    "theme_color": "#5817D9",
+    "background_color": "#FFFFFF",
+    "theme_color": "#FFFFFF",
     "start_url": "/?utm_source=a2hs",
     "display": "standalone",
     "icons": [

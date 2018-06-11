@@ -11,6 +11,8 @@
         "func-style": "off",
         "linebreak-style": ["error", "windows"],
         "max-len": ["error", 120],
+        "no-bitwise": "off",
+        "no-magic-numbers": "off",
         "one-var": "off",
         "padded-blocks": "off",
         "space-before-function-paren": "off"

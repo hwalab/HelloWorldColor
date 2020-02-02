@@ -15,7 +15,7 @@ Prerequisites: [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/), [
 
 ## Contributions
 
-Contributions are welcome! For feature requests and bug reports please [submit an issue](https://github.com/hwalab/HelloWorldColor/issues).
+Contributions are welcome: code, text, documentation, design, graphics, suggestions. Please fork this repository and contribute back using [pull requests](https://github.com/hwalab/HelloWorldColor/pulls), or [submit an issue](https://github.com/hwalab/HelloWorldColor/issues).
 
 ## Acknowledgements
 
